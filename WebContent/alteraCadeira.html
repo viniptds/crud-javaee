@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="POST" action="ListaCadeira">
+		<table>
+			<tr>
+				<td colspan="2">Alterar Cadeira</td>
+			</tr>
+			<tr>
+				<td>Codigo: </td>
+				<td><input type="text" name="codigo" pattern="[0-9]+$" required="required" placeholder="Números: 1, 2, 3, 4, etc...">
+				<input type="hidden" name="op" value="2"></td>				
+			</tr>
+		</table>
+		<br>
+		<br>
+		<input type="submit" value="Buscar">	
+		<a href="index.html">Início</a>	
+	</form>
+</body>
+</html>

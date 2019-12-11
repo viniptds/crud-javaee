@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Uniasselvi - Cadastro Funcionário</title>
+</head>
+<body>
+	<form method="POST" action="CadastroCadeira">
+		<table>
+			<tr>
+				<td colspan="2">Cadastro de Cadeira</td>
+			</tr>
+			<tr>
+				<td>Modelo: </td>
+				<td><input type="text" name="modelo" required="required" /></td>
+			</tr>
+			<tr>
+				<td>Marca: </td>
+				<td>
+					<select name="marca">
+						<option value="CAVALETTI" selected>Cavaletti</option>
+						<option value="PLAXMETAL">Plaxmetal</option>
+						<option value="MOBILAN">Mobilan</option>
+					</select>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Cor: </td>
+				<td>
+					<select name="cor">
+						<option value="PRETO" selected>Preto</option>
+						<option value="BRANCO">Branco</option>
+						<option value="AMARELO">Amarelo</option>
+						<option value="VERMELHO">Vermelho</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<input type="submit" value="Gravar">
+		<a href="index.html">Início</a>	
+	</form>
+	
+</body>
+</html>
